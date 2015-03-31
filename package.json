@@ -1,0 +1,42 @@
+{
+    "main": "index.js",
+    "name": "scipm.theme.output.black",
+    "version": "0.1.0",
+    "description": "Change the colours of the output panel",
+    "license": "GPL-3.0",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/aminassian/scipm.theme.output.black.git"
+    },
+    "bugs": {
+        "type": "git",
+        "url": "git://github.com/aminassian/scipm.theme.output.black/issues"
+    },
+    "keywords": [
+        "scipm-package"
+    ],
+    "dependencies": {
+    },
+    "scipmchild": {
+        "version": "1",
+        "scipmDependencies": {},
+        "luaRequire": [],
+        "SciTEStartup": {
+            "_use": "dofile",
+            "raw": null,
+            "filePath": null,
+            "dofile": [
+                "scite",
+                "main.lua"
+            ],
+            "luaReportExtend": "scipm.core.printInfoPackage(\"scipm.theme.output.black\");",
+            "infoLuaFunctions": [],
+            "infoFiles": [
+                {"path": ["README.md" ]},
+                {"path": ["package.json" ]},
+                {"path": ["scite", "main.lua" ]}
+            ]
+        },
+        "actions": {}
+    }
+}
