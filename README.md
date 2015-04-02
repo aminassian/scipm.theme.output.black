@@ -4,7 +4,6 @@ scipm.theme.output.black is a [scipm](https://github.com/aminassian/scipm) packa
 
 Change the colours of the output panel (http://www.scintilla.org/SciTEFAQ.html#OutputColour)
 
-
 ## install
 
 ```
